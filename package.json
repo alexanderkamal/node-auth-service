@@ -1,0 +1,20 @@
+{
+  "name": "node-auth-service",
+  "version": "1.0.0",
+  "description": "Learning project: a layered Node.js/Express auth API (JWT, Prisma/PostgreSQL) built to practice production backend patterns — centralized error handling, structured logging, and correlation IDs.",
+  "main": "auth/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Kamal",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.19.1",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.19.0",
+    "uuid": "^8.3.2"
+  }
+}
